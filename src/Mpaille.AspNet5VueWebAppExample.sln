@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.30615.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpaille.AspNet5VueWebAppExample.Webapp", "Mpaille.AspNet5VueWebAppExample.Webapp\Mpaille.AspNet5VueWebAppExample.Webapp.csproj", "{E54C5A38-8472-4C95-A7E2-66265C4F1D5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.WebApi", "Mpaille.AspNet5VueWebAppExample.WebApi\Mpaille.AspNet5VueWebAppExample.WebApi.csproj", "{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpaille.AspNet5VueWebAppExample.WebApi", "Mpaille.AspNet5VueWebAppExample.WebApi\Mpaille.AspNet5VueWebAppExample.WebApi.csproj", "{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.Repositories", "Mpaille.AspNet5VueWebAppExample.Repositories\Mpaille.AspNet5VueWebAppExample.Repositories.csproj", "{521C267F-D15E-4486-9702-2876A22BB77F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.Services", "Mpaille.AspNet5VueWebAppExample.Services\Mpaille.AspNet5VueWebAppExample.Services.csproj", "{29FBF8B7-CD22-473D-961C-000C6C480A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.Models", "Mpaille.AspNet5VueWebAppExample.Models\Mpaille.AspNet5VueWebAppExample.Models.csproj", "{226A68DF-BB2D-46E5-A896-8484284B9EE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521C267F-D15E-4486-9702-2876A22BB77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521C267F-D15E-4486-9702-2876A22BB77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521C267F-D15E-4486-9702-2876A22BB77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521C267F-D15E-4486-9702-2876A22BB77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FBF8B7-CD22-473D-961C-000C6C480A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FBF8B7-CD22-473D-961C-000C6C480A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FBF8B7-CD22-473D-961C-000C6C480A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FBF8B7-CD22-473D-961C-000C6C480A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226A68DF-BB2D-46E5-A896-8484284B9EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226A68DF-BB2D-46E5-A896-8484284B9EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226A68DF-BB2D-46E5-A896-8484284B9EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226A68DF-BB2D-46E5-A896-8484284B9EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
