@@ -1,18 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Mpaille.AspNet5VueWebAppExample.Webapp.Models;
+using Mpaille.AspNet5VueWebAppExample.Services.Core;
+using Mpaille.AspNet5VueWebAppExample.ViewModels;
+using Mpaille.AspNet5VueWebAppExample.Webapp.Core;
 using System.Diagnostics;
 
 namespace Mpaille.AspNet5VueWebAppExample.Webapp.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController<HomeController>
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        public HomeController(ILogger<HomeController> logger, IServices services) : base(logger, services) { }
 
         public IActionResult Index()
         {
