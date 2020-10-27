@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Mpaille.AspNet5VueWebAppExample.Models\Mpaille.AspNet5VueWebAppExample.Models.csproj" />
+    <ProjectReference Include="..\Mpaille.AspNet5VueWebAppExample.Services\Mpaille.AspNet5VueWebAppExample.Services.csproj" />
+    <ProjectReference Include="..\Mpaille.AspNet5VueWebAppExample.ViewModels\Mpaille.AspNet5VueWebAppExample.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

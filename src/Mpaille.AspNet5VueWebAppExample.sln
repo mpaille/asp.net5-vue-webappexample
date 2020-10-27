@@ -5,13 +5,19 @@ VisualStudioVersion = 16.0.30615.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpaille.AspNet5VueWebAppExample.Webapp", "Mpaille.AspNet5VueWebAppExample.Webapp\Mpaille.AspNet5VueWebAppExample.Webapp.csproj", "{E54C5A38-8472-4C95-A7E2-66265C4F1D5F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpaille.AspNet5VueWebAppExample.WebApi", "Mpaille.AspNet5VueWebAppExample.WebApi\Mpaille.AspNet5VueWebAppExample.WebApi.csproj", "{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpaille.AspNet5VueWebAppExample.Repositories", "Mpaille.AspNet5VueWebAppExample.Repositories\Mpaille.AspNet5VueWebAppExample.Repositories.csproj", "{521C267F-D15E-4486-9702-2876A22BB77F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.Repositories", "Mpaille.AspNet5VueWebAppExample.Repositories\Mpaille.AspNet5VueWebAppExample.Repositories.csproj", "{521C267F-D15E-4486-9702-2876A22BB77F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpaille.AspNet5VueWebAppExample.Services", "Mpaille.AspNet5VueWebAppExample.Services\Mpaille.AspNet5VueWebAppExample.Services.csproj", "{29FBF8B7-CD22-473D-961C-000C6C480A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.Services", "Mpaille.AspNet5VueWebAppExample.Services\Mpaille.AspNet5VueWebAppExample.Services.csproj", "{29FBF8B7-CD22-473D-961C-000C6C480A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpaille.AspNet5VueWebAppExample.Models", "Mpaille.AspNet5VueWebAppExample.Models\Mpaille.AspNet5VueWebAppExample.Models.csproj", "{226A68DF-BB2D-46E5-A896-8484284B9EE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.Models", "Mpaille.AspNet5VueWebAppExample.Models\Mpaille.AspNet5VueWebAppExample.Models.csproj", "{226A68DF-BB2D-46E5-A896-8484284B9EE4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{805FD745-F768-48B2-B934-864D4A0ADDAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7AF2948A-1EA7-4735-98E8-374ED7E9D7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mpaille.AspNet5VueWebAppExample.ViewModels", "Mpaille.AspNet5VueWebAppExample.ViewModels\Mpaille.AspNet5VueWebAppExample.ViewModels.csproj", "{5E151475-8A79-4B4D-BE80-B82A4843B257}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{187A02BD-944C-4E4B-A314-2806334B8B10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +29,6 @@ Global
 		{E54C5A38-8472-4C95-A7E2-66265C4F1D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E54C5A38-8472-4C95-A7E2-66265C4F1D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E54C5A38-8472-4C95-A7E2-66265C4F1D5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CEAEF87-7CDC-4FFF-B072-C04BD357B8EB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{521C267F-D15E-4486-9702-2876A22BB77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{521C267F-D15E-4486-9702-2876A22BB77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{521C267F-D15E-4486-9702-2876A22BB77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,9 +41,20 @@ Global
 		{226A68DF-BB2D-46E5-A896-8484284B9EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{226A68DF-BB2D-46E5-A896-8484284B9EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{226A68DF-BB2D-46E5-A896-8484284B9EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E151475-8A79-4B4D-BE80-B82A4843B257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E151475-8A79-4B4D-BE80-B82A4843B257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E151475-8A79-4B4D-BE80-B82A4843B257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E151475-8A79-4B4D-BE80-B82A4843B257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E54C5A38-8472-4C95-A7E2-66265C4F1D5F} = {187A02BD-944C-4E4B-A314-2806334B8B10}
+		{521C267F-D15E-4486-9702-2876A22BB77F} = {7AF2948A-1EA7-4735-98E8-374ED7E9D7EC}
+		{29FBF8B7-CD22-473D-961C-000C6C480A5A} = {805FD745-F768-48B2-B934-864D4A0ADDAA}
+		{226A68DF-BB2D-46E5-A896-8484284B9EE4} = {805FD745-F768-48B2-B934-864D4A0ADDAA}
+		{5E151475-8A79-4B4D-BE80-B82A4843B257} = {187A02BD-944C-4E4B-A314-2806334B8B10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48CDDD0D-A478-46E1-B3D6-1D48DEC41272}
